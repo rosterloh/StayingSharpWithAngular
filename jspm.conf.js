@@ -13,6 +13,7 @@ System.config({
     "angular": "github:angular/bower-angular@1.3.8",
     "angular-animate": "github:angular/bower-angular-animate@1.3.8",
     "angular-mocks": "github:angular/bower-angular-mocks@1.3.8",
+    "angular-route": "github:angular/bower-angular-route@1.3.14",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.11",
     "css": "github:systemjs/plugin-css@0.1.0",
     "font-awesome": "npm:font-awesome@4.2.0",
@@ -33,6 +34,10 @@ System.config({
     },
     "github:angular/bower-angular-mocks@1.3.8": {
       "angular": "github:angular/bower-angular@1.3.8"
+    },
+    "github:angular/bower-angular-route@1.3.14": {
+      "angular": "github:angular/bower-angular@1.3.8"
     }
   }
 });
+
